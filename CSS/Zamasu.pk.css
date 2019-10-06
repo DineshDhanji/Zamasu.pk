@@ -1,0 +1,513 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #DEE1E6;
+    }
+    /* Header Start From Here */
+    header{
+        background-color: #161616
+    }
+    header ul{
+        margin-left: -40px;
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        background-color: #343A40;
+        color: white;
+        height: 25px;
+        padding-bottom: 4px;
+        margin-bottom: 0px;
+    }
+    header ul li:hover{
+        border-bottom: 1px solid white;
+    }
+    .main{
+        display: flex;
+        justify-content: space-between;
+    }
+    .right-cont{
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+        margin: 40px 50px;
+    }
+    .right-cont a{
+        color: white; 
+    }
+    .account, .cart,.about{
+        border-bottom: 2px solid white;
+        border-top: 2px solid white;
+        width: 80px;
+        height: 140px;
+        text-align: center;
+        padding: 4px 0px;
+        border-radius: 3%;
+    }
+    .account i, .cart i,.about i{
+        font-size: 55px
+    }
+    .account span, .cart span,.about span{
+        font-size: 17px
+    }
+    .account:hover{
+        background-color: #FFA721;
+        color:white;
+    }
+    .cart:hover{
+        background-color: #FFA721;
+        color:white;
+    }
+    .about:hover{
+        background-color: #FFA721;
+        color:white;
+    }
+    
+    /* Header Ends Here */
+    /* Categories Start From Here */
+    .category{
+        position: relative;
+        padding: 5px 0px;
+        width: 30%;
+    }
+    .cate-sub{
+        position: absolute ;
+        background-color: #343A40;
+        display: none;
+        margin-left: -16px;
+        margin-top: 1px;
+        z-index: 100;
+        width: 500px;
+        
+    }
+    .category:hover .cate-sub{
+        display: block;
+    }
+    .cate-sub a{
+        color: white;
+        text-decoration: none
+    }
+    .cate-sub ul{
+        list-style: none;
+        margin-left: -33px;
+        font-size: 17px;
+    }
+    .cate-sub li{
+        padding: 8px 60px 8px 2px;
+    }
+    .cate-sub li:hover{
+        border-bottom: 1px solid white;
+    }
+    .cate-sub ul li i{
+        font-size: 22px
+    }
+    .mobile:hover{
+        color: #2AC5B3
+    }
+    .xbox:hover{
+        color: #10790F
+    }
+    .female:hover{
+        color: #FC46AA
+    }
+    .male:hover{
+        color: #00BEFE
+    }
+    .capsules:hover{
+        color: #FF0800
+    }
+    .football:hover{
+        color: #6D1BC8;
+    }
+    .appliances:hover{
+        color: #1B6BE5
+    }
+    .circle:hover{
+        color: #FFB532
+    }
+    /* Categories End Here */
+    /* flash-sell */
+    .flash-sell{
+        background-color: #FFA721;
+        color: white;
+        text-align: center;
+        font-size: 37px;
+        letter-spacing: 0.8px;
+    }
+    .flash-sell:hover{
+        text-shadow: 4px 3px 2px black;
+    }
+    /* Mobile-tablet Start From Here */
+    .mobile-tablet-heading, .women-fashion-heading, .gaming-heading, .men-fashion-heading{
+        background-color: #F7F7F7; 
+        padding: 10px 0px 10px 30px;
+        font-size: 24px;
+        color: grey;
+        
+    }
+
+    .mobile-tablet-add, .women-fashion-add, .men-fashion-add, .gaming-add{
+        display: flex;
+        background-color: #fff;
+        overflow: auto;
+    }
+    .mobile-tablet-div {
+        width: 190px;
+        height: 405px;
+        margin: 1px;
+        
+    }
+    .mobile-tablet-div:hover, .women-fashion-div:hover, .gaming-div:hover, .men-fashion-div:hover{
+        box-shadow: 1px 1px 8px black;
+    }
+    .discount{
+        border: 1px solid #D3D3D3;
+        font-size: 12px;
+        width: 55px;
+        color: #999999;
+        padding: 4px 6px;
+        margin: 19px 1px 1px 20px;
+        border-radius: 10%;
+        position: absolute;
+    }
+    .mobile-tablet-div-phone,.women-fashion-div-start, .men-fashion-div-start,.gaming-div-start {
+        position: relative;  
+    }
+    .heart-icon{
+        visibility: hidden;
+        margin-left: 163px;
+        margin-top: 15px;
+    }
+    .mobile-tablet-div:hover .heart-icon{
+        visibility: visible;
+        margin-left: 170px;
+        margin-top: 15px;
+    }
+    .mobile-tablet-img{
+        margin-top: 27px;
+    }
+    .mobile-tablet-text-one{
+        color: #999999;
+        line-height: 18px;
+        font-size: 14px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .mobile-tablet-rating{
+        font-size: 15px;
+        color: #FFC20B;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .mobile-tablet-text-two{
+        color: #333;
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top: 9px;
+        
+    }
+    .useless{
+        font-size: 11px;
+        color: #ccc;
+        text-decoration: line-through
+    }
+    .mobile-tablet-img-huawei{
+        margin-top: 27px;
+        margin-left: 8px;
+    }
+    .mobile-tablet-img-oneplus{
+        margin-top: 27px;
+    }
+    /* Mobile-tablet End Here */
+    /* Women's Fashions Start From Here */
+    .women-fashion-div {
+        width: 199px;
+        height: 404px;
+        margin: 1px;
+        
+    }
+    .discount{
+        border: 1px solid #D3D3D3;
+        font-size: 12px;
+        width: 61px;
+        color: #999999;
+        padding: 4px 6px;
+        margin: 19px 1px 1px 20px;
+        border-radius: 10%;
+        position: absolute;
+    }
+    .heart-icon{
+        visibility: hidden;
+        margin-left: 170px;
+        margin-top: 15px;
+    }
+    .women-fashion-div:hover .heart-icon{
+        visibility: visible;
+        margin-left: 170px;
+        margin-top: 15px;
+    }
+    .women-fashion-img{
+        margin-top: 27px;
+        margin-left: 20px;
+    }
+    .women-fashion-text-one{
+        color: #999999;
+        line-height: 18px;
+        font-size: 14px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 6px;
+    }
+    .women-fashion-rating{
+        font-size: 15px;
+        color: #FFC20B;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .women-fashion-text-two{
+        color: #333;
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top: 9px;
+        
+    }
+
+    /* Women's Fashions End Here */
+    /* Men's Fashions Start From Here */
+    .men-fashion-div {
+        width: 199px;
+        height: 405px;
+        margin: 1px;
+    }
+    .discount{
+        border: 1px solid #D3D3D3;
+        font-size: 12px;
+        width: 61px;
+        color: #999999;
+        padding: 4px 6px;
+        margin: 19px 1px 1px 20px;
+        border-radius: 10%;
+        position: absolute;
+    }
+    .heart-icon{
+        visibility: hidden;
+        margin-left: 170px;
+        margin-top: 15px;
+    }
+    .men-fashion-div:hover .heart-icon{
+        visibility: visible;
+        margin-left: 170px;
+        margin-top: 15px;
+    }
+    .men-fashion-img{
+        margin-top: 27px;
+        margin-left: 20px;
+    }
+    .men-fashion-text-one{
+        color: #999999;
+        line-height: 18px;
+        font-size: 14px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 6px;
+    }
+    .men-fashion-rating{
+        font-size: 15px;
+        color: #FFC20B;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .men-fashion-text-two{
+        color: #333;
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top: 9px;
+        
+    }
+    /* Men's Fashions End Here */
+    /* Gaming's Craze Start From Here */
+
+    .gaming-div {
+        width: 199px;
+        height: 405px;
+        margin: 1px;
+        
+    }
+    .discount{
+        border: 1px solid #D3D3D3;
+        font-size: 12px;
+        width: 61px;
+        color: #999999;
+        padding: 4px 6px;
+        margin: 19px 1px 1px 20px;
+        border-radius: 10%;
+        position: absolute;
+    }
+    .heart-icon{
+        visibility: hidden;
+        margin-left: 170px;
+        margin-top: 15px;
+    }
+    .gaming-div:hover .heart-icon{
+        visibility: visible;
+        margin-left: 170px;
+        margin-top: 15px;
+    }
+    .gaming-img{
+        margin-top: 27px;
+        margin-left: 20px;
+    }
+    .gaming-text-one{
+        color: #999999;
+        line-height: 18px;
+        font-size: 14px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 6px;
+    }
+    .gaming-rating{
+        font-size: 15px;
+        color: #FFC20B;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .gaming-text-two{
+        color: #333;
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top: 9px;
+        
+    }
+    /* Gaming's Craze End Here */
+    /* See More Start From Here */
+    .see-more{
+        background-color: #FFA721;
+        color: white;
+        border: transparent;
+        outline: none;
+        padding: 12px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .see-more:hover{
+        background-color: #F29200
+    }
+    /* See More End Here */
+     /* FOOTER */
+     footer{
+        background-color: #161616;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+    table{
+        background-color: #161616;
+        margin: 15px 10px 0px 30px
+    }
+    table tr td{
+        color: white;
+    }
+    table tr th{
+        color: #878787;
+        font-size: 14px 
+    }
+    table tr td {
+        font-size: 14px;
+        padding: 3px 60px 3px 0px;
+        color: white;
+    }
+    a{
+        color: white
+    }
+    div a,span a{
+        color: #007bff
+    }
+    td a:hover{
+        color: white;
+        text-decoration: none
+    } 
+    /* FIXED CONTAINER Start From Here*/
+    .fixed-container{
+        background-image: linear-gradient(to right, #02F0FC , #3BB1FA );
+        border: 3px solid white;
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        text-align: center;
+        position: fixed;
+        right: 70px;
+        bottom: 75px;
+    }
+    .fixed-container i{
+        color: white;
+        font-size: 41px;
+        margin-top: 8px;
+    }
+    .fixed-container:hover i{
+        color: white;
+        font-size: 29px;
+        margin-top: 8px;
+    }
+    .fixed-container p{
+        visibility: hidden;
+        color: white;
+        font-size: 12px;
+   }
+   .fixed-container:hover p{
+       visibility: visible;
+   }
+    /* FIXED CONTAINER End Here */
+   /* It About Link */
+    a:hover {
+    text-decoration: none
+    }
+    .link-one{
+        color: black
+    }
+    .link-two{
+        color: white ;
+    }
+    .link-two:hover{
+        color: white ;
+    }
+
+    hr{ 
+        height: 1px;
+        color: black;
+        background-color: black;
+        border: none;
+        
+    }
+
+/* SCROLLBAR CHANGES */
+    .mobile-tablet-add::-webkit-scrollbar,
+    .women-fashion-add::-webkit-scrollbar,
+    .men-fashion-add::-webkit-scrollbar,
+    .gaming-add::-webkit-scrollbar
+    {
+       height: 3px;
+       background-color: #F5F5F5
+    }
+    .mobile-tablet-add::-webkit-scrollbar-thumb,
+    .women-fashion-add::-webkit-scrollbar-thumb,
+    .men-fashion-add::-webkit-scrollbar-thumb,
+    .gaming-add::-webkit-scrollbar-thumb
+    {
+        background-color:#888; 
+    }
+    .mobile-tablet-add::-webkit-scrollbar-thumb:hover,
+    .women-fashion-add::-webkit-scrollbar-thumb:hover,
+    .men-fashion-add::-webkit-scrollbar-thumb:hover,
+    .gaming-add::-webkit-scrollbar-thumb:hover
+    {
+        background-color:#555;
+    }
+    .mobile-tablet-add:hover::-webkit-scrollbar,
+    .women-fashion-add:hover::-webkit-scrollbar,
+    .men-fashion-add:hover::-webkit-scrollbar,
+    .gaming-add:hover::-webkit-scrollbar 
+    {
+        height: 8px;
+    }
+      

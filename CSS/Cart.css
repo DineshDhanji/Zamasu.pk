@@ -1,0 +1,64 @@
+    body{
+        background-image: url('../About/cover 3.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .logo{
+        text-align: center;
+    }
+    header{
+        background-image: linear-gradient(to right, #02F0FC 50%, #3BB1FA 50%)
+    }
+    .main{
+        border: 1px solid white;
+        background-color: #fff;
+        width: 90%;
+        border: 1px solid #D3D3D3;
+        margin: auto;
+        opacity: 0.9;
+    }
+    .my-cart{
+        color: white;
+        border-bottom: 3px solid white; 
+        text-align: center;
+        padding: 13px 1px 13px 1px;
+        margin-bottom: 35px;
+    }
+    .cart-heading{
+        border: 1px solid black;
+        text-align: center;
+        padding: 5px;
+    }
+    .cart-item-img{
+        padding: 7px 0px 7px 11px;
+        text-align: center;
+    }
+    .item-img{
+        width: 75px;
+        height: 75px;    
+    }
+    .cart-item-price{
+        padding: 29px 0px 0px 0px;
+        text-align: center;
+        font-size: 19px;
+    }
+    .cart-item-quantity{
+        padding: 25px 0px 0px 0px;
+        text-align: center;
+    }
+    .cart-item:hover{
+        background-color: #ECECEC  
+    }
+    .cart-item-total{
+        border-top: 1px solid black;
+        text-align: right;
+        padding-bottom: 15px;
+    }
+    .cart-quantity{
+        width: 50px;
+        padding: 4px 0px 8px 0px;
+    }
+    .cart-item{
+        border-bottom: 1px solid black;
+    }

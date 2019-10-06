@@ -1,0 +1,127 @@
+body{
+    background-image: url('../About/cover 1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Quicksand', sans-serif;
+}
+header{
+    background-image: linear-gradient(to right, #F99854 50%, #F6C85C 50%)
+    }
+.logo{
+    text-align: center;
+}
+.about-us{
+    color: white;
+    border-bottom: 1px solid #273142; 
+    text-align: center;
+    padding: 13px 1px 13px 1px;
+}
+.about-us-div{
+    border: 3px solid white;
+    display: flex;
+    background-color: #161616;
+    color: white;
+    max-width:  90%;
+    min-width: 90%;
+    min-width: 445px;
+    margin: 0 auto;
+    margin-top: 7px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.about-us-img img{
+    border: 3px solid white;
+    border-radius: 50%;
+    text-align: center;
+    margin: 15px ;
+    min-width: 300px;
+    min-height: 300px
+}
+.about-us-developer{
+    text-align: left;
+    padding-top: 100px 
+}
+.icon{
+    font-size: 100px;
+    color:white;
+    margin: 2px 0px;
+}
+.child{
+    display: flex;
+    border: 1px solid white;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin: 6px 0px 0px 0px;
+    color: white
+}
+hr{ 
+    height: 3px;
+    color: white;
+    background-color: white;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: white
+}
+a:hover {
+    text-decoration: none;
+    color: white
+}
+.child:hover, .child:hover a, .child:hover i{
+    background-color: #fff;
+    color: black
+}
+span i{
+    margin: 2px 5px 0px 6px;
+}
+.facebook:hover{
+    color: #3B5998
+}
+.twitter:hover{
+    color: #1C9DEB
+}
+.google:hover{
+    color: #DA1738
+}
+.github:hover{
+    color: orangered
+}
+/* FOOTER */
+footer{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #161616;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    overflow: hidden;
+}
+table{
+    background-color: #161616;
+    margin: 15px 10px 0px 30px
+}
+table tr td{
+    color: white;
+}
+table tr th{
+    color: #878787;
+    font-size: 14px 
+}
+table tr td {
+    font-size: 14px;
+    padding: 3px 60px 3px 0px;
+    color: white;
+}
+a{
+    color: white
+}
+td a:hover{
+    color: white;
+    text-decoration: none
+}
