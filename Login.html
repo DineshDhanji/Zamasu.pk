@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Log In</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- JAVASCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- WEB FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/Login.css">
+    <!-- MY JAVASCRIPT -->
+    <script src="./JAVASCRIPT/Login.js" async></script>
+    <script async>
+    // CHECKING WHERE TO GO
+    if(localStorage.getItem('email0') === null){ 
+    } else{
+        window.location.href="./Profile.html"
+    }          
+    </script>
+</head>
+<body>
+<div style=" min-height: 100%;">
+<div class="form-div">
+<div class="form-container">
+    <div>
+        <img src="./Logos/Logo 4.png" style="padding: 0px 36px 40px 36px">
+        <div class="ep-container">
+    <div class="email-div"><span class="icon"><i class="far fa-user"></i></span>
+        <input type="text" class="email" id="emailLogin" name="email"  value="" placeholder="Email" required/>
+    </div>
+    <br />
+    <div class="pass-div"><span class="icon"><i class="fas fa-lock"></i></span>
+        <input type="password" class="pass" id="passwordLogin" name="password" value="" placeholder="Password" required/>
+    </div>
+    <br />
+    <div style="display: flex; justify-content: space-between; margin: 0px 6px 5px 6px;"><span><input type="checkbox"/> Remember Me</span><span><a href="#" onclick="changePassword()">Forget Password</a></span></div> 
+    <div style="margin: 7px 0px 14px 0px; text-align: center"><a href="./SignUp.html">If you don't have acount click here.</a></div>
+    <div style="display: flex; justify-content: space-around;">
+        <a href="javascript:void(0)">
+            <button class="sign-button" onclick="matchData()">LOG IN</button>
+        </a>
+    </div>
+    <hr/>
+    <div style="display: flex; justify-content: space-around;">
+            <a href="https://accounts.google.com/signin/v2/identifier?hl=EN&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                <button type="button" class="google-button"><i class="fab fa-google"></i>&nbsp;&nbsp;&nbsp;&nbsp; SIGN IN WITH GOOGLE
+                </button></a>
+    </div>
+    <div style="display: flex; justify-content: space-around;">
+        <a href="https://www.facebook.com">
+        <button type="button" class="facebook-button"><i class="fab fa-facebook-f"></i>&nbsp;&nbsp;&nbsp;&nbsp;SIGN IN WITH FACEBOOK
+        </button></a>
+    </div>
+        </div>
+    </div>
+</div>
+</div>
+<hr/>
+<div style="background-color: white;color: black; display: flex; justify-content: space-between;margin: 2px 0px">
+    <span style="font-size: 19px; margin: 5px 0px 0px 0px;"><b>DEVELPOED BY :</b> DINESH.D</span>
+    <span style="font-size: 19px;">You can also contact us at 
+        <i class="fab fa-facebook-square facebook" style="font-size: 30px;"></i>
+        <i class="fab fa-google google" style="font-size: 27px"></i>
+        <i class="fab fa-twitter-square twitter" style="font-size: 30px"></i>
+        <i class="fab fa-github github" style="font-size: 30px"></i>
+    </span>
+</div>
+<hr/>
+</div>
+
+<footer>
+    <div class="footer-logo"><a href="Zamasu.pk.html"><img src="./Logos/Logo 1.png"/></a></div>
+    <table>
+        <tr>
+            <th>HELP</th>
+            <th>POLICY</th>
+            <th>SOCIAL</th>
+            <th>ABOUT</th>
+        </tr>
+        <tr>
+            <td>Payments Information</td>
+            <td>Return Policy</td>
+            <td><a href="https://www.facebook.com">Facebook</a></td>
+            <td><a href="About.html">About Us</a></td>
+        </tr>
+        <tr>
+            <td>Shipping Information</td>
+            <td>Terms & Conditions</td>
+            <td><a href="https://twitter.com/login?lang=en">Twitter</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>FAQ</td>
+            <td>Privacy</td>
+            <td><a href="https://www.instagram.com">Instagram</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Zamasu.pk Franchise Program</td>
+            <td>Warranty</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</footer> 
+</body>
+</html>

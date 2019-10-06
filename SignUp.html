@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- JAVASCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- <script src="./Cart.js" async></script> -->
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- WEB FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/Sign Up.css">
+    <!-- MY JAVASCRIPT -->
+    <script src="./JAVASCRIPT/SignUp.js" async></script>
+</head>
+<body>
+<header  >
+<div class="d-none d-md-block" ><div style="display: flex; justify-content: space-between;">
+    <a href="./Zamasu.pk.html"><div class="logo">
+        <img src="./Logos/logo 6.png">
+    </div></a>
+    <div class="search-bar-div d-md-none d-lg-block">
+        <input type="text" name="search-bar" class="search-bar " placeholder="Search Here (if it's works)"/>
+        <button type="button" class="search-btn"><i class="fas fa-search"></i></button>
+    </div>
+    <div class="other-items">
+        <a href="./Cart.html"><div class="cart"><i class="fab fa-opencart"></i><br/><br/>My Cart</div></a>
+        <a href="./About.html"><div class="about"><i class="far fa-id-badge"></i><br/><br />About</div></a>
+        <a href="#"><div class="help"><i class="far fa-question-circle icon"></i><br/>Need Help ?</div></a>
+    </div>
+</div></div>
+    <div class="d-md-none">
+        <center><a href="./Zamasu.pk.html"><img src="./Logos/Logo 6.png" alt="logo"/></a></center>
+                <div style="display: flex;width: 100%;justify-content: space-evenly;color: white">
+                <a href="./Login.html" style="color: white">
+                    <div class="account" style="width: auto;height: 45px;"><i class="far fa-user-circle" style="font-size: 25px;margin:5px 10px 0px 5px"></i><span style="    padding: 3px;">My Account</span></div>
+                </a>
+                <a href="./Cart.html" style="color: white">
+                    <div class="cart" style="width: auto;height: 45px;"><i class="fab fa-opencart" style="font-size: 25px;margin:5px 10px 0px 5px"></i><span style="    padding: 3px;">My Cart</span></div>
+                </a>
+                <a href="./About.html" style="color: white">
+                    <div class="about" style="width: auto;height: 45px;"><i class="far fa-id-badge" style="font-size: 25px;margin:5px 10px 0px 5px"></i><span style="    padding: 3px;">About Us</span></div>
+                </a>
+            </div>
+    </div>
+</header>
+<center>
+<div class="upper-side">
+        <div class="sign-heading"><h1>Sign Up</h1></div><hr/>
+        <div style="display: flex; justify-content: space-between; padding: 0px 15px;">
+            <span style="font-size: 26px">Create Your Account</span>
+            <span style="padding-top: 7px">Already have an account ? <a href="./Login.html">Login Here</a></span>
+        
+    </div>
+        <hr/>
+    <form action="./Login.html">
+    <div class="main-container">
+        <div class="left-side" style="width: 60%">
+        <div>
+            <span class="head-1">Username </span><br/>
+            <input type="text" placeholder="Username" class="username" id="username" required />
+        </div>
+        <div>
+            <span class="head-1">Email </span><br/>
+            <input type="email" placeholder="Enter your Email here" class="email" id="email" required onchange="checkEmail()">
+        </div>
+        <div>
+            <span class="head-1">Password </span><br/>
+            <input type="password" placeholder="Enter your Password here" class="password" id="password" required>
+        </div>
+        <div>
+            <span class="head-1">Address </span><br/>
+            <input type="text" placeholder="Please enter your complete address here" class="address" required>
+        </div>
+        </div>
+        <div class="right-side" style="border-left: 1px solid black;">
+        <div>
+            <span class="head-1">Gender </span><br/>
+            <span style="margin-right: 10px"><input type="radio" name="gender" value="Male"/>Male</span> 
+            <span style="margin-right: 10px"><input type="radio" name="gender" value="Female"/>Female</span>    
+            <span style="margin-right: 10px"><input type="radio" name="gender" value="Don't wanna specify "/>Don't wanna specify </span>    
+        </div><br/>
+        <div>
+             <span class="head-1">BirthDay</span><br/>
+             <select id="date">
+                <option selected disabled>DAY</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+             </select>
+             <select id="month">
+                 <option selected disabled>MONTH</option>
+                 <option value="Jan">Jan</option>
+                 <option value="Feb">Feb</option>
+                 <option value="Mar">Mar</option>
+                 <option value="Apr">Apr</option>
+                 <option value="May">May</option>
+                 <option value="June">June</option>
+                 <option value="July">July</option>
+                 <option value="Aug">Aug</option>
+                 <option value="Sep">Sep</option>
+                 <option value="Oct">Oct</option>
+                 <option value="Nov">Nov</option>
+                 <option value="Dec">Dec</option>
+             </select>
+             <select id="year">
+                 <option selected disabled>YEAR</option>
+                 <option value="2019">2019</option>
+                 <option value="2018">2018</option>
+                 <option value="2017">2017</option>
+                 <option value="2016">2016</option>
+                 <option value="2015">2015</option>
+                 <option value="2014">2014</option>
+                 <option value="2013">2013</option>
+                 <option value="2012">2012</option>
+                 <option value="2011">2011</option>
+                 <option value="2010">2010</option>
+                 <option value="2009">2009</option>
+                 <option value="2008">2008</option>
+                 <option value="2007">2007</option>
+                 <option value="2006">2006</option>
+                 <option value="2005">2005</option>
+                 <option value="2004">2004</option>
+                 <option value="2003">2003</option>
+                 <option value="2002">2002</option>
+                 <option value="2001">2001</option>
+                 <option value="2000">2000</option>
+             </select>
+        </div><br/>
+        <div>
+            <span><input type="checkbox" class="check">
+            I want to receive exclusive offers and promotions from Zamasu
+            </span><br/>
+        </div><br/>
+        
+        <button class="signin-btn" onclick="saveData(), nextPage()">SIGN IN</button><br/>
+        <span>By clicking "SIGN UP" I agree to Zamasu Privacy Policy</span>
+        <br/>
+        <div style="    margin: 10px 0px;">
+            <span style="font-size: 18px">Contact Us At :
+                <i class="fab fa-facebook-square facebook" style="font-size: 30px; margin-left: 12px"></i>
+                <i class="fab fa-google google" style="font-size: 27px; margin-left: 8px"></i>
+                <i class="fab fa-twitter-square twitter" style="font-size: 30px; margin-left: 8px"></i>
+                <i class="fab fa-github github" style="font-size: 30px; margin-left: 7px"></i>
+            </span>
+        </div>
+        </div>
+    </div>
+    </form>
+    </div>
+</center>
+<div style="background-color: white;color: black; display: flex; justify-content: space-between;margin: 2px 0px">
+    <span style="font-size: 19px; margin: 5px 0px 0px 0px;"><b>Source :</b> Dinesh.D</span>
+    <span style="font-size: 19px;">You can also contact us at 
+        <i class="fab fa-facebook-square facebook" style="font-size: 30px;"></i>
+        <i class="fab fa-google google" style="font-size: 27px"></i>
+        <i class="fab fa-twitter-square twitter" style="font-size: 30px"></i>
+        <i class="fab fa-github github" style="font-size: 30px"></i>
+    </span>
+</div>
+<footer>
+    <div class="footer-logo"><a href="Zamasu.pk.html"><img src="./Logos/logo 4.png"/></a></div>
+    <table>
+        <tr>
+            <th>HELP</th>
+            <th>POLICY</th>
+            <th>SOCIAL</th>
+            <th>ABOUT</th>
+        </tr>
+        <tr>
+            <td>Payments Information</td>
+            <td>Return Policy</td>
+            <td><a href="https://www.facebook.com">Facebook</a></td>
+            <td><a href="About.html">About Us</a></td>
+        </tr>
+        <tr>
+            <td>Shipping Information</td>
+            <td>Terms & Conditions</td>
+            <td><a href="https://twitter.com/login?lang=en">Twitter</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>FAQ</td>
+            <td>Privacy</td>
+            <td><a href="https://www.instagram.com">Instagram</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Zamasu.pk Franchise Program</td>
+            <td>Warranty</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+ 
+</footer>
+</body>
+</html>
