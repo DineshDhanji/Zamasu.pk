@@ -1,0 +1,392 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    }
+    /* Header Start From Here */
+    /* Header Start From Here */
+    header{
+        background-color: #161616;
+        height: 250px;
+
+    }
+    header ul{
+        margin-left: -40px;
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        background-color: #343A40;
+        color: white;
+        height: 25px;
+        padding-bottom: 4px;
+        margin-bottom: 0px;
+    }
+    header ul li:hover{
+        border-bottom: 1px solid white;
+    }
+    .main{
+        display: flex;
+        justify-content: space-between;
+    }
+    .right-cont{
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+        margin: 40px 50px;
+    }
+    .right-cont a{
+        color: white; 
+    }
+    .account, .cart,.about{
+        /* border-bottom: 2px solid white;
+        border-top: 2px solid white; */
+        width: 80px;
+        height: 140px;
+        text-align: center;
+        padding: 4px 0px;
+        border-radius: 3%;
+    }
+    .account i, .cart i,.about i{
+        font-size: 55px;
+        padding: 10px 4px;
+    }
+    .account span, .cart span,.about span{
+        font-size: 17px
+    }
+    .account:hover{
+        background-color: #FF0059;
+        color:white;
+    }
+    .cart:hover{
+        background-color: #FF0059;
+        color:white;
+    }
+    .about:hover{
+        background-color: #FF0059;
+        color:white;
+    }
+    
+    /* Header Ends Here */
+    /* Categories Start From Here */
+    ul li {
+        list-style: none;    
+    }
+    .cat-div .drop-check .drop-down a{
+        color: white;
+    }
+    a:hover{
+        text-decoration: none;
+        color: white;
+    }
+    .cat-div{
+        background-color: #373737;
+        position: relative;
+        margin: 2px 0px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        color: white;
+    }
+    .categories{
+        display: flex;
+        position: relative;
+    }
+    .cat-text{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 24px;
+        text-decoration: underline;
+    }
+    
+    .drop-down{
+        position: absolute;
+        background-color: black;
+        width: inherit;
+        margin-left: -16px;
+        visibility: hidden;
+        transition: .3s;
+        opacity: 0;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+    }
+    .visible{
+        transition: .3s !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        width: 100% !important;
+        z-index: 100 !important;
+    }
+    .drop-down ul li div i{
+        font-size: 20px;
+    }
+    .drop-down ul div{
+        font-size: 15px;
+        width: 100%;
+        transition: .3s;
+        height: auto;
+        margin: 4px 0px;
+        padding: 10px 25px;
+    }
+    .drop-down ul div:hover{
+        font-size: 19px;
+        transition: .3s;
+        background-color: #FF0059;
+
+    }
+    .drop-down ul div:hover i{
+        transition: .3s;
+        font-size: 22px;
+    }
+    .toogle-div{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 27px;
+    }
+    .toogle-div button{
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+        color: white;
+        outline: none;
+        border: none;
+    }
+    .form{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px -15px !important;
+    }
+    .form input{
+        border: none;
+        outline: none;
+        width: 90%;
+        height: 50px;
+        padding: 1px 5px;
+    }
+    .form input:focus{
+        transition: .5s;
+        border: 2px solid #FF0059;
+    }
+    .form button{
+        width: 10%;
+        height: 51px;
+        background-color: #FF0059;
+        color: white;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        margin: -2px 0px;
+        text-align: center;
+    }
+    /* Categories End Here */
+    /* MEN'S FASHIONS */
+    .mobile-tablet-heading{
+        background-color: #FF0059; 
+        padding: 10px 0px 10px 30px;
+        font-size: 30px;
+        color: white;
+        text-align: center; 
+        transition: .3s;;
+}   
+.mobile-tablet-heading:hover{
+    text-decoration: underline;
+    transition: .3s;
+}
+    .main{
+        display: flex
+    }
+    .Categories {
+        width: 250px;
+    }
+    .Option{
+        flex: 4;
+        display: flex;
+        flex-wrap: wrap 
+    }
+    /* Categories start from here */
+    .main-categories-style{
+        font-size: 20px;
+        letter-spacing: 1px;
+        padding: 7px 0px 7px 13px;
+    }
+    .main-categories-style i{
+        font-size: 19px;
+        float: right;
+        padding: 6px 8px 0px 0px;
+    }
+    .others-categories-style{
+        padding: 13px 15px;
+        font-size: 15px;
+        color: black;
+        border: 1px solid transparent;
+    }
+    .others-categories-style i{
+        font-size: 21px;
+    }
+    .others-categories-style:hover{
+        background-color: #EEF0F4;
+        border-bottom: 2px solid #FFA721;
+    }
+    .main-categories-style:hover{
+        border-right: 3px solid #FFA721;
+    }
+    .others-categories-style-mobile:hover{
+        color: #2AC5B3
+    }
+    .others-categories-style-xbox:hover{
+        color: #10790F
+    }
+    .others-categories-style-female:hover{
+        color: #FC46AA
+    }
+    .others-categories-style-male:hover{
+        color: #00BEFE
+    }
+    .others-categories-style-capsules:hover{
+        color: #FF0800
+    }
+    .others-categories-style-futbol:hover{
+        color: #6D1BC8;
+    }
+    .others-categories-style-appliances:hover{
+        color: #1B6BE5
+    }
+    .others-categories-style-circle:hover{
+        color: #FFB532
+    }
+    /* Categories End Here */
+    /* It About Link */
+    a:hover {
+        text-decoration: none;
+    }
+    a{
+        color: black
+    }
+    /* Option Start From Here */
+    .gaming-div {
+        width: 199px;
+        height: 405px;
+        margin: 1px;
+        
+    }
+    .gaming-div:hover{
+        box-shadow: 1px 1px 8px black;
+    }
+    .discount{
+        border: 1px solid #D3D3D3;
+        font-size: 12px;
+        width: 61px;
+        color: #999999;
+        padding: 4px 6px;
+        margin: 19px 1px 1px 20px;
+        border-radius: 10%;
+        position: absolute;
+    }
+    .gaming-div-start {
+        position: relative;       
+    }
+    .heart-icon{
+        visibility: hidden;
+        margin-left: 170px;
+        margin-top: 15px;
+    }
+    .gaming-div:hover .heart-icon{
+        visibility: visible;
+        margin-left: 170px;
+        margin-top: 15px;
+    }
+    .gaming-img{
+        margin-top: 27px;
+        margin-left: 20px;
+    }
+    .gaming-text-one{
+        color: #999999;
+        line-height: 18px;
+        font-size: 14px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 6px;
+    }
+    .gaming-rating{
+        font-size: 15px;
+        color: #FFC20B;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .gaming-text-two{
+        color: #333;
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top: 9px;
+        
+    }
+    .gaming-add{
+        display: flex;
+    }
+    /* Gaming's Craze End Here */
+     /* FOOTER */
+    footer{
+        background-color: #161616;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+    table{
+        background-color: #161616;
+        margin: 15px 10px 0px 30px
+    }
+    table tr td{
+        color: white;
+    }
+    table tr th{
+        color: #878787;
+        font-size: 14px 
+    }
+    table tr td {
+        font-size: 14px;
+        padding: 3px 60px 3px 0px;
+        color: white;
+    }
+    a{
+        color: white
+    }
+    div a,span a{
+        color: #007bff
+    }
+    td a:hover{
+        color: white;
+        text-decoration: none
+    } 
+ /* FIXED CONTAINER Start From Here*/
+ .fixed-container{
+    background-image: linear-gradient(to right, #F106A3 , #FF0059  );
+    border: 3px solid white;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    right: 70px;
+    transition: .3s;
+    bottom: 75px;
+}
+.fixed-container i{
+    color: white;
+    font-size: 41px;
+    margin-top: 8px;transition: .3s;
+}
+.fixed-container:hover i{
+    color: white;
+    font-size: 29px;
+    margin-top: 8px;transition: .3s;
+}
+.fixed-container p{
+    visibility: hidden;
+    color: white;
+    font-size: 12px;transition: .3s;
+}
+.fixed-container:hover p{
+   visibility: visible;
+   transition: .3s;
+}
+/* FIXED CONTAINER End Here */

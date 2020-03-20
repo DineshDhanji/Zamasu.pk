@@ -1,0 +1,26 @@
+.buy-now-btn{
+    background-color: #FF0059;
+    color: white;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    width: 83%;
+    margin: 3px 16px 3px 16px;
+}
+.btn-visi:hover .buy-now-btn{
+    display: block
+}
+.buy-now-btn:hover{
+    background-color: rgb(255, 89, 147);
+    color: white;
+}
+.buy-now-btn:active{
+    background-color: #333333
+}
+.useless{
+    font-size: 11px;
+    color: #ccc;
+    text-decoration: line-through;
+}

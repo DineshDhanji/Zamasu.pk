@@ -1,0 +1,171 @@
+body{
+        background-image: url('../Sign Up/cover 2.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Quicksand', sans-serif; 
+    }
+    header{
+        background-image: linear-gradient(to right, #5928B1 30%  , #5727AD 70%);
+        /* display: flex;
+        justify-content: space-between; */
+    }
+    .search-bar-div{
+        margin:58px 0px 0px 53px;
+        width: 50%
+        
+    }
+    .search-bar{
+        position: relative;
+        width: 90%;
+        height: 2.5em;
+        font-size: 20px;
+        padding: 0px 0px 0px 23px;
+
+    }
+    .search-btn{
+        position: absolute;
+        color: #fff;
+        background-color: #878784;
+        border-color: #28a745;
+        display: inline-block;
+        text-align: center;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border: none;
+        height: 3em;
+
+    }
+    button i {
+        font-size: 28px
+    }
+    .other-items{
+        display: flex;
+        padding-top: 23px;
+    }
+    .cart i, .about i, .help i{
+        color: #fff;
+        font-size: 50px;
+        padding-top: 8px;
+    }
+    .cart:hover i ,.cart:hover{
+        background-color: #878784;
+        color: white
+    }
+    .about:hover i ,.about:hover{
+        background-color: #878784;
+        color: white
+    }
+    .help:hover i ,.help:hover{
+        background-color: #878784;
+        color: white
+    }
+    .cart, .about, .help, .account {
+        border: 1px solid white;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        width: 90px;
+        height: 130px;
+        margin: 0px 6px 0px 7px;
+    }
+    a div{
+        color: white
+    }
+    a:hover{
+        text-decoration: none
+    }
+    
+    .upper-side{
+        background-color: #fff;
+        width: 83%;
+        height: auto;
+        overflow: hidden;
+        margin-top: 70px;
+        opacity: 0.9;
+        border-radius: 5px;
+        margin-bottom: 80px;
+    }
+    hr{ 
+        height: 1px;
+        color: black;
+        background-color: black;
+        border: none;
+        
+    }
+    .sign-heading{
+        color: black;
+        text-align: center;
+        padding: 8px 0px 0px 0px;
+    }
+    .username, .email, .password, .address{
+        height: 2.5em;
+        width: 92%;
+        margin: 12px 0px;
+        outline: none;
+        padding: 0px 0px 0px 15px;
+    }
+    .head-1{
+        font-size: 20px;
+    }
+    .main-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .signin-btn{
+        color: #fff;
+        background-color: #5928B1;
+        width: 90%;
+        font-size: 19px;
+        padding: 9px 0px;
+        margin-bottom: 11px;
+    }
+    .facebook:hover{
+        color: #3B5998
+    }
+    .twitter:hover{
+        color: #1C9DEB
+    }
+    .google:hover{
+        color: #DA1738
+    }
+    .github:hover{
+        color: orangered
+    }
+    /* FOOTER */
+    footer{
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+    table{
+        background-color: white;
+        margin: 15px 10px 0px 30px
+    }
+    table tr td{
+        color: black;
+    }
+    table tr th{
+        color: #878787;
+        font-size: 14px 
+    }
+    table tr td {
+        font-size: 14px;
+        padding: 3px 60px 3px 0px;
+        color: black;
+    }
+    a{
+        color: black
+    }
+    div a,span a{
+        color: #007bff
+    }
+    td a:hover{
+        color: black;
+        text-decoration: none
+    } 
+
+    

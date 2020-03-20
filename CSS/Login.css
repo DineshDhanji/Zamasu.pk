@@ -1,0 +1,327 @@
+body{
+    background-image: url("../About/11418.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Quicksand', sans-serif;
+    background-color: lightgrey ;
+    }
+html, body{
+    height: 100%;
+    margin: 0;
+}
+   /* Header Start From Here */
+   header{
+    background-color: #161616;
+    height: 250px;
+
+}
+header ul{
+    margin-left: -40px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: #343A40;
+    color: white;
+    height: 25px;
+    padding-bottom: 4px;
+    margin-bottom: 0px;
+}
+header ul li:hover{
+    border-bottom: 1px solid white;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.right-cont{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: 40px 50px;
+}
+.right-cont a{
+    color: white; 
+}
+.account, .cart,.about{
+    /* border-bottom: 2px solid white;
+    border-top: 2px solid white; */
+    width: 80px;
+    height: 140px;
+    text-align: center;
+    padding: 4px 0px;
+    border-radius: 3%;
+}
+.account i, .cart i,.about i{
+    font-size: 55px;
+    padding: 10px 4px;
+}
+.account span, .cart span,.about span{
+    font-size: 17px
+}
+.account:hover{
+    background-color: #FF0059;
+    color:white;
+}
+.cart:hover{
+    background-color: #FF0059;
+    color:white;
+}
+.about:hover{
+    background-color: #FF0059;
+    color:white;
+}
+
+/* Header Ends Here */
+/* Categories Start From Here */
+ul li {
+    list-style: none;    
+}
+.cat-div .drop-check .drop-down a{
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+.cat-div{
+    background-color: #373737;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: white;
+}
+.categories{
+    display: flex;
+    position: relative;
+}
+.cat-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.drop-down{
+    position: absolute;
+    background-color: black;
+    width: inherit;
+    margin-left: -16px;
+    visibility: hidden;
+    transition: .3s;
+    opacity: 0;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+}
+.visible{
+    transition: .3s !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    width: 100% !important;
+    z-index: 100 !important;
+}
+.drop-down ul li div i{
+    font-size: 20px;
+}
+.drop-down ul div{
+    font-size: 15px;
+    width: 100%;
+    transition: .3s;
+    height: auto;
+    margin: 4px 0px;
+    padding: 10px 25px;
+}
+.drop-down ul div:hover{
+    font-size: 19px;
+    transition: .3s;
+    background-color: #FF0059;
+
+}
+.drop-down ul div:hover i{
+    transition: .3s;
+    font-size: 22px;
+}
+.toogle-div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 27px;
+}
+.toogle-div button{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px -15px !important;
+}
+.form input{
+    border: none;
+    outline: none;
+    width: 90%;
+    height: 50px;
+    padding: 1px 5px;
+}
+.form input:focus{
+    transition: .5s;
+    border: 2px solid #FF0059;
+}
+.form button{
+    width: 10%;
+    height: 51px;
+    background-color: #FF0059;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin: -2px 0px;
+    text-align: center;
+}
+/* Categories End Here */
+.form-div{
+     display: flex; 
+    justify-content: center;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 440px;
+    padding-top: 25px;
+    background-color: white;
+    margin: 100px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.ep-container{
+    padding : 0px 0px 21px 0px;
+}
+.email{
+    padding: 6px 0em 6px 10px;
+    border: none;
+    outline: none;
+    width: 22em;
+}
+.pass{
+    padding: 6px 0em 6px 10px;
+    border: none;
+    outline: none;
+    width: 22em;
+}
+.icon{
+    padding: 0px 13px;
+    font-size: 22px;
+    border-right: 1px solid black;
+}
+.email-div{
+    border-bottom: 1px solid black;
+}
+.pass-div{
+    border-bottom: 1px solid black; 
+}
+.sign-button{
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+    padding: 6px 8em 6px 8em;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    outline-color: black
+    
+}
+button:focus{
+    outline: none
+}
+hr{ 
+    height: 1px;
+    color: black;
+    background-color: black;
+    border: none;
+}
+.google-button{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    padding: 6px 57px 6px 57px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 10px;
+}
+.facebook-button{
+    color: #fff;
+    background-color: #405D9A;
+    border-color: #405D9A;
+    padding: 6px 53px 6px 50px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 10px;
+}
+hr{ 
+    height: 3px;
+    color: white;
+    background-color: white;
+    border: none;
+}
+span i{
+    margin: 2px 5px 0px 6px;
+}
+.facebook:hover{
+    color: #3B5998
+}
+.twitter:hover{
+    color: #1C9DEB
+}
+.google:hover{
+    color: #DA1738
+}
+.github:hover{
+    color: #000000
+}
+/* FOOTER */
+footer{
+    background-color: #161616;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+    color: white !important;
+}
+table{
+    margin: 15px 10px 0px 30px
+}
+table tr td{
+    color: white;
+}
+table tr th{
+    color: #878787;
+    font-size: 14px 
+}
+table tr td {
+    font-size: 14px;
+    padding: 3px 60px 3px 0px;
+    color: white;
+}
+a{
+    color: white
+}
+div a,span a{
+    color: white 
+}
+td a:hover{
+    color: white;
+    text-decoration: none
+} 
